@@ -1,7 +1,6 @@
-# O(n) space and O(n) time
 import helper_linked_lists
 
-
+# O(n) space and O(n) time
 def remove_dups1(my_list):
     aux = []
     prev = my_list.head
