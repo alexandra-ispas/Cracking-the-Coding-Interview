@@ -65,7 +65,6 @@ def partition(my_list, pivot):
     curr = prev
     while curr is not None:
         if curr.data < pivot and curr is not my_list.head:
-            # if something is smaller than the pivot, i place it in thw beginning
             aux = curr.next
             prev.next = curr.next
             curr.next = my_list.head
